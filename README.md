@@ -50,3 +50,20 @@ Measures used :
 ## Data Visualization :
 ![image](https://github.com/Tanvi-19/Data-Visualization/assets/84302681/2c64cdff-4224-4c15-8ce5-4d85758f706d)
 
+## Insights :
+Based on the visualization following are the insights :
+
+- Overall customer satisfaction rating is medium(3.4).
+- 5000 total calls are registered over the span of three months (January, February, March).
+- In the month of January average customer satisfaction rate was highest, and March was lowest.
+- Agent Martha got a highest rating, and Joe got a lowest rating.
+- Average speed of answering a call by agent Joe is highest and by agent Becky is lowest.
+- Most of the issues resolved in January month with highest percentage, down in February and again slightly increased in March.
+- Resolution rate of Jim is highest, though the average speed of answering a call is lower as compared to Joe. Also he attended maximum calls.
+- Maximum calls are related to Streaming topic.
+
+## Final Call :
+- Based on above information I came to below conclusion :
+    - Top 3 Agents based on call resolution rate : Jim, Dan, Becky
+    - Top 3 Agents based on calls attended : Jim, Martha, and for third position we have 2 agents Dan and Diane but Dan's call resolution rate is higher as compared to Diane
+    - Top 3 Agents based on customer ratings : Martha, Dan, Diane
