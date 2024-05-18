@@ -17,4 +17,6 @@ Create a dashboard in Power BI for Claire that reflects all relevant Key Perform
 
 ## Dataset :
 
-![image](https://github.com/Tanvi-19/Data-Visualization/assets/84302681/8c85de19-3d75-48bf-8057-fd7216b1b1dc)
+  ![image](https://github.com/Tanvi-19/Data-Visualization/assets/84302681/8c85de19-3d75-48bf-8057-fd7216b1b1dc)
+
+  - Dataset contains 5000 records and 10 columns
