@@ -2,7 +2,7 @@
 I joined a virtual internship at PwC, were my major role is to create interactive reports using Power BI.
 
 Here is my First Task -
-Main objective was to analyse the trends of the call center based on the data provided.
+
 
 ## Problem Statement :
 Create a dashboard in Power BI for Claire that reflects all relevant Key Performance Indicators (KPIs) and metrics in the dataset. Get creative! 
