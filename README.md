@@ -25,3 +25,7 @@ Dataset contains 5000 records and 10 columns.
 - Understand the data
 - Validated the data type of the column
     - Changed data type for column Time and AvgTalkDuration to Time as it contains the data related to time, initially it was declared as a Date data type.
+ 
+## Performed Calculations :
+Conditional Column -
+  -
