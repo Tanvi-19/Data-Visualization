@@ -29,9 +29,9 @@ Dataset contains 5000 records and 10 columns.
 ## Performed Calculations :
 Conditional Column :
 
-- Created separate conditional column for Answered and Abandoned Calls (Used to count the overall answered and abandoned calls)
+- Created separate conditional column for Answered and Abandoned Calls (Used to count the overall answered and abandoned calls).
 
-Measures used :
+Measures Used :
 
 - Total Calls - Count = COUNT(Sheet1[Call Id])
 - Average customer satisfaction rating = AVERAGE(Sheet1[Satisfaction rating]) 
@@ -39,7 +39,7 @@ Measures used :
 - Poor rating = CALCULATE(COUNTROWS('Sheet1'),'Sheet1'[Satisfaction rating] = 1)
 - Average speed of answer in sec = AVERAGE(Sheet1[Speed of answer in seconds])
 
-## Filters used on :
+## Filters Used On :
 
 - Months
 - Resolved Issue
@@ -49,6 +49,15 @@ Measures used :
 
 ## Data Visualization :
 ![image](https://github.com/Tanvi-19/Data-Visualization/assets/84302681/2c64cdff-4224-4c15-8ce5-4d85758f706d)
+
+- KPI's Used :
+    - Total calls
+    - Calls answered/abanded
+    - Average satisfaction rating
+    - Average speed of answer in sec
+    - Calls by time
+    - Agent’s performance quadrant - (total calls, answered calls, abanded calls, Avg talk duration, Avg speed of answer, Avg rating)
+    - Total calls by topic
 
 ## Insights :
 Based on the visualization following are the insights :
