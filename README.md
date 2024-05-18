@@ -19,4 +19,9 @@ Create a dashboard in Power BI for Claire that reflects all relevant Key Perform
 
   ![image](https://github.com/Tanvi-19/Data-Visualization/assets/84302681/8c85de19-3d75-48bf-8057-fd7216b1b1dc)
 
-  - Dataset contains 5000 records and 10 columns
+## Data Cleaning/Preparation :
+Dataset contains 5000 records and 10 columns.
+
+- Understand the data
+- Validated the data type of the column
+    - Changed data type for column Time and AvgTalkDuration to Time as it contains the data related to time, initially it was declared as a Date data type.
