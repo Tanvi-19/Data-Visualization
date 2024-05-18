@@ -33,7 +33,7 @@ Conditional Column :
 
 Measures Used :
 
-- Total Calls = 'COUNT(Sheet1[Call Id])'
+- Total Calls = `COUNT(Sheet1[Call Id])`
 - Average customer satisfaction rating = `AVERAGE(Sheet1[Satisfaction rating])`
 - Customer rating in between 4 to 5 = `CALCULATE(COUNTROWS('Sheet1'),AND('Sheet1'[Satisfaction rating] >= 4, 'Sheet1'[Satisfaction rating] <= 5))`
 - Poor rating = `CALCULATE(COUNTROWS('Sheet1'),'Sheet1'[Satisfaction rating] = 1)`
