@@ -27,5 +27,14 @@ Dataset contains 5000 records and 10 columns.
     - Changed data type for column Time and AvgTalkDuration to Time as it contains the data related to time, initially it was declared as a Date data type.
  
 ## Performed Calculations :
-Conditional Column -
-  -
+Conditional Column :
+
+- Created separate conditional column for Answered and Abandoned Calls (Used to count the overall answered and abandoned calls)
+
+Measures used :
+
+- Total Calls - Count = COUNT(Sheet1[Call Id])
+- Average customer satisfaction rating = AVERAGE(Sheet1[Satisfaction rating]) 
+- Customer rating in between 4 to 5 = CALCULATE(COUNTROWS('Sheet1'),AND('Sheet1'[Satisfaction rating] >= 4, 'Sheet1'[Satisfaction rating] <= 5))
+- Poor rating = CALCULATE(COUNTROWS('Sheet1'),'Sheet1'[Satisfaction rating] = 1)
+- Average speed of answer in sec = AVERAGE(Sheet1[Speed of answer in seconds])
