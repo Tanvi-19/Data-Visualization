@@ -39,10 +39,14 @@ Measures used :
 - Poor rating = CALCULATE(COUNTROWS('Sheet1'),'Sheet1'[Satisfaction rating] = 1)
 - Average speed of answer in sec = AVERAGE(Sheet1[Speed of answer in seconds])
 
-## Filters used :
+## Filters used on :
 
 - Months
 - Resolved Issue
 - Topics
 - Agents
 - Date
+
+## Data Visualization :
+![image](https://github.com/Tanvi-19/Data-Visualization/assets/84302681/2c64cdff-4224-4c15-8ce5-4d85758f706d)
+
